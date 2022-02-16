@@ -1,0 +1,20 @@
+pipeline {
+  agent any
+  stages {
+    stage("Cleaning Stage") {
+      steps {
+        println "Cleaning Stage"
+      }
+    }
+    stage("Testing Stage") {
+      steps {
+        println "Testing Stage"
+      }
+    }
+    stage("Packaging Stage") {
+      steps {
+        println "Packaging Stage"
+      }
+    }    
+  }
+}
